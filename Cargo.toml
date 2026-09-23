@@ -1,0 +1,16 @@
+[package]
+name = "urlenc"
+version = "0.1.0"
+edition = "2021"
+description = "A tiny, fast CLI to safely URL-encode or decode strings or stdin streams"
+license = "MIT"
+authors = ["Animesh Raj <animesh080808@gmail.com>"]
+repository = "https://github.com/itsarraj/urlenc"
+readme = "README.md"
+keywords = ["url", "encode", "decode", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+urlencoding = "2"
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
